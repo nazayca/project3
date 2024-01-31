@@ -1,0 +1,23 @@
+name: End-to-end tests
+on: push
+# on:
+#   push: 
+#   schedule:
+#     - cron: '50 12 * * 6'
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      # Install npm dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+        # can specify the browser type and headless mode
+        with:
+          # browser: chrome
+          # headless: true
+          # spec: cypress/e2e/integration/25-Project02Demo.cy.js
+          command: npm run test:chrome
