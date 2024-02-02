@@ -250,7 +250,7 @@ describe('booking page test', () => {
   *Cabin Class: Premium Economy 
   */
 
-  it.only('Test Case 05 - Validate the booking for 2 passengers and one way', function() {
+  it('Test Case 05 - Validate the booking for 2 passengers and one way', function() {
     bookingPage.getRadioButton(1).check()
    
    bookingPage.getDropdowns().each(function($el,index){
