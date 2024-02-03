@@ -8,7 +8,7 @@
     "test:all:headed": "npx cypress run --headed",
     "test:chrome": "npx cypress run --browser chrome",
     "test:config": "npx cypress run --config viewportWidth=1280,viewportHeight=720 --headed",
-    "test:specific": "npx cypress run --spec \"cypress/e2e/integration//Users/nazeyinc/Desktop/project3/cypress/e2e/integration/bookingFunction.cy.js\" --headed --browser chrome",
+    "test:specific": "npx cypress run --spec \"/Users/nazeyinc/Desktop/project3/cypress/e2e/integration/bookingFunction.cy.js\" --headed --browser chrome",
     "test:smoke": "npx cypress run --env grepTags=@custom,grepFilterSpecs=true",
     "test:dashboard": "npx cypress run --record --key 5ffd7a78-520b-4eeb-a0f9-80fe47975416"
   },
