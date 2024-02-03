@@ -44,7 +44,6 @@ describe('booking page test', () => {
       }
     })
 
-    
     bookingPage.getLabels().each(($el, index) => {
       cy.wrap($el).should('have.text', this.labels[index]).should('be.visible')
     })
