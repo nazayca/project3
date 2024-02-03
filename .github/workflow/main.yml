@@ -14,4 +14,3 @@ jobs:
           # headless: true
           # spec: cypress/e2e/integration/25-Project02Demo.cy.js
           command: npm run test:chrome
-          
