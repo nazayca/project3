@@ -10,3 +10,7 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v6
+         # browser: chrome
+          # headless: true
+          # spec: cypress/e2e/integration/25-Project02Demo.cy.js
+          command: npm run test:chrome
