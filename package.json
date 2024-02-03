@@ -23,5 +23,11 @@
     "cypress-real-events": "^1.11.0",
     "dotenv": "^16.4.1",
     "eslint": "^8.56.0"
-  }
+  },
+
+"github-actions.remote-name": "https://github.com/nazayca/project3",
+"github-actions.workflows.pinned.workflows": [
+    
+
+]
 }
